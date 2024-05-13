@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "@refinedev/supabase": "^5.7.4",
-    "js-cookie": "^3.0.5"
-  },
-  "devDependencies": {
-    "@types/js-cookie": "^3.0.6"
-  }
-}
