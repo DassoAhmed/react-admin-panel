@@ -73,7 +73,7 @@ function App() {
                   syncWithLocation: true,
                   warnWhenUnsavedChanges: true,
                   useNewQueryKeys: true,
-                  projectId: "PQt2AT-AXPjVD-8ddjPM",
+                  projectId: "Ge2bss-4XZRDF-G7zXrb",
                 }}
               >
                 <Routes>
