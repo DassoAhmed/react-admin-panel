@@ -50,6 +50,7 @@ function App() {
                 dataProvider={dataProvider("https://api.fake-rest.refine.dev")}
                 notificationProvider={notificationProvider}
                 routerProvider={routerBindings}
+                //livemode
                 liveProvider={liveProvider(ablyClient)}
                 resources={[
                   {
@@ -74,6 +75,7 @@ function App() {
                   },
                 ]}
                 options={{
+                  //livemode
                   liveMode: "auto" ,
                   syncWithLocation: true,
                   warnWhenUnsavedChanges: true,
