@@ -1,5 +1,7 @@
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import { useMany } from "@refinedev/core";
+import { IResourceComponentsProps } from "@refinedev/core";
+import { MuiListInferencer } from "@refinedev/inferencer/mui";
 
 import {
   DateField,
@@ -11,6 +13,8 @@ import {
   useDataGrid,
 } from "@refinedev/mui";
 import React from "react";
+
+
 
 export const BlogPostList = () => {
   const { dataGridProps } = useDataGrid({
@@ -108,6 +112,8 @@ export const BlogPostList = () => {
   return (
     <List>
       <DataGrid {...dataGridProps} columns={columns} autoHeight />
+      <MuiListInferencer />
     </List>
+    
   );
 };

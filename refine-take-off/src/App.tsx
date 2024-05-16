@@ -1,8 +1,7 @@
 import { GitHubBanner, Refine } from "@refinedev/core";
 import { DevtoolsPanel, DevtoolsProvider } from "@refinedev/devtools";
 import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
-//highlight-start
-import { ablyClient } from "utility";
+import { ablyClient } from "./utility";
 import { liveProvider } from "@refinedev/ably";
 
 import {
@@ -47,9 +46,11 @@ function App() {
           <RefineSnackbarProvider>
             <DevtoolsProvider >
               <Refine
+              
                 dataProvider={dataProvider("https://api.fake-rest.refine.dev")}
                 notificationProvider={notificationProvider}
                 routerProvider={routerBindings}
+                liveProvider={liveProvider(ablyClient)}
                 resources={[
                   {
                     name: "blog_posts",
@@ -73,6 +74,7 @@ function App() {
                   },
                 ]}
                 options={{
+                  liveMode: "auto" ,
                   syncWithLocation: true,
                   warnWhenUnsavedChanges: true,
                   useNewQueryKeys: true,
@@ -110,6 +112,7 @@ function App() {
                 <RefineKbar />
                 <UnsavedChangesNotifier />
                 <DocumentTitleHandler />
+                
               </Refine>
               <DevtoolsPanel />
             </DevtoolsProvider>
