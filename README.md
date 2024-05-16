@@ -1,5 +1,10 @@
 # react-admin-panel
-Building a realtime React admin panel with Ably and refine
+Building a realtime React admin panel with Ably and refine.
+
+![Refineblogpost](https://github.com/DassoAhmed/react-admin-panel/assets/65762595/5ec44f7a-14ca-4865-9ce4-01e2c6e10d0b)
+
+
+![RefineCategory](https://github.com/DassoAhmed/react-admin-panel/assets/65762595/2b71a6b2-920f-4c51-a5c7-55cbe4242b81)
 
  ## Installation 
  Using bundler, add to the `npm`:
