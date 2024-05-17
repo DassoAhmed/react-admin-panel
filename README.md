@@ -28,7 +28,7 @@ Follow the steps as Follows
 ✔ Do you need i18n (Internationalization) support?: · No
 ✔ Would you mind sending us your choices so that we can improve superplate? · Yes
 
-You could cheack the refine documentation [here](https://refine.dev/docs/).
+You could check the refine documentation [here](https://refine.dev/docs/).
 
 ## Take-Off
 # Step 1 : Clone Repository 
