@@ -27,3 +27,23 @@ Follow the steps as Follows
 ✔ Do you need any Authentication logic?: · None
 ✔ Do you need i18n (Internationalization) support?: · No
 ✔ Would you mind sending us your choices so that we can improve superplate? · Yes
+
+You could cheack the refine documentation [here](https://refine.dev/docs/).
+
+## Take-Off
+# Step 1 : Clone Repository 
+```
+https://github.com/DassoAhmed/react-admin-panel.git
+```
+
+# Step 2 : Install bundler 
+```
+npm install
+```
+
+# Step 2 : Run Server 
+```
+   development server : npm run dev
+   production server : npm run preview
+
+```
