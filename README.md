@@ -35,6 +35,9 @@ You could cheack the refine documentation [here](https://refine.dev/docs/).
 ```
 https://github.com/DassoAhmed/react-admin-panel.git
 ```
+```
+cd .\GitHub\react-admin-panel\refine-take-off
+```
 
 # Step 2 : Install bundler 
 ```
